@@ -1,0 +1,105 @@
+.parent{
+    /* background-color: aqua; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: repeating-linear-gradient(45deg,rgb(158, 239, 158),rgb(245, 245, 148) 2%);
+}
+.headindigTop{
+    text-align: center;
+    color: brown;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 4px -2px yellow;
+}
+h2,.pre{
+    color: red;
+    font-family: cursive;
+
+}
+pre{
+    margin: 20px;
+    font-size: 25px;
+    color: green;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+.answer{
+    display: flex;
+    margin-left: 30px;
+}
+.output{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+}
+
+button{
+    padding: 5px 20px;
+    font-size: 24px;
+    color: red; 
+    font-family: cursive;
+    border-radius: 15px;
+    border: 0px solid red;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5px;
+    font-weight: bold;
+    background-image: repeating-linear-gradient(45deg,rgb(239, 163, 158),rgb(245, 245, 148) 20%);
+
+
+}
+button:hover{
+    border: 2px solid red;
+}
+.button{
+    margin-left: 42%;
+
+}
+.preQuestion{
+    margin: 20px;
+    font-size: 25px;
+    color: green;
+    font-weight: 900;
+}
+.flex{
+    display: flex;
+    /* display: block; */
+
+    margin: auto;
+
+}
+.flexbox{
+   height: 150px;
+   width: 150px;
+   background-image: repeating-linear-gradient(45deg,rgb(132, 15, 7),rgb(245, 245, 148) 20%);
+
+   margin: 20px 20px;
+   background-color: aqua;
+}
+table{
+    /* margin: auto; */
+width: 500px;
+   height: 400px;
+}
+
+.between{
+    display: flex;
+    justify-content: space-between;
+}
+th{
+    color: white;
+    font-size: 28px;
+}
+td{
+    color: green;
+    font-size: 22px;
+    font-family: cursive;
+}

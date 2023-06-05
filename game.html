@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./game.css" />
+  </head>
+  <body>
+    <div class="parent">
+      <h1 class="headindigTop dinesh">*Number Guesses Games*</h1>
+      <div class="between">
+        <div><button onclick="refresh()">Let's Play Again</button></div>
+        <div><h2>(Between 1 and 100 )</h2></div>
+      </div>
+
+      <div class="guessMyNumber biharnumer">Guess My Number!</div>
+      <br />
+
+      <hr />
+
+      <div class="guessMyNumberSymbol ganesh">?</div>
+
+      <div class="section">
+        <div class="left">
+          <label for="userNmber">Enter Your Number</label>
+          <br />
+          <input type="number" id="userNmber" value="" />
+          <br />
+          <button class="check" onclick="check()">Check!</button>
+        </div>
+        <div class="right">
+          <h1 class="message dinesh">Start Guessing...</h1>
+          <div class="count">
+            <span>💯 Chances: </span>
+            <h1 class="counts">100</h1>
+          </div>
+          <div class="high">
+            <span>🥇 Highscore: </span>
+            <h1 class="highScore">0</h1>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <a href="./index.html" class="goBack" id="dkp">
+        <button>Go Back</button></a
+      >
+    </div>
+    <span class="space" id="rkp"></span>
+    <script src="./game.js"></script>
+  </body>
+</html>

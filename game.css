@@ -1,0 +1,126 @@
+button:hover{
+    border: 2px solid red;
+}
+.button{
+    margin-left: 42%;
+
+}
+.between{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    padding: 5px 20px;
+    font-size: 24px;
+    color: red; 
+    font-family: cursive;
+    border-radius: 15px;
+    border: 0px solid red;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5px;
+    font-weight: bold;
+    background-image: repeating-linear-gradient(45deg,rgb(239, 163, 158),rgb(245, 245, 148) 20%);
+
+
+}
+.parent{
+    /* background-color: aqua; */
+    background-repeat: no-repeat;
+    height: 80%;
+    width: 100%;
+    padding: 0px;
+    box-sizing: border-box;
+    background-size: cover;
+    /* background-image: repeating-linear-gradient(45deg,rgb(158, 239, 158),rgb(245, 245, 148) 2%); */
+}
+.headindigTop{
+    text-align: center;
+    color: brown;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 4px -2px yellow;
+}
+.guessMyNumber,.guessMyNumberSymbol{
+    margin-left: 40%;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 38px;
+    color: red;
+    /* border: 1px solid green; */
+}
+h2{
+    color: red;
+    font-family: cursive;
+
+}
+hr{
+    height: 5px;
+    padding: 5px;
+    color: aqua;
+}
+.guessMyNumberSymbol{
+      border: 3px solid green;
+      background-color: aliceblue;
+      text-align: center;
+      width: 50px;
+      margin-left: 48%;
+      margin-top: -50px;
+}
+.section{
+    display: flex;
+    margin: 35px 100px;
+    justify-content: space-around;
+}
+label{
+    color: green;
+    font-size: 49px;
+   margin-left: -70px;
+    /* margin: auto; */
+}
+input{
+    height: 50px;
+    width: 100px;
+    margin-left: 50px;
+    color: brown;
+    text-align: center;
+    font-size: 32px;
+    color: aqua;
+    font-weight: bold;
+        border: 5px solid green;
+}
+.check{
+    margin-left: 50px ;
+}
+.high,.count{
+    display: flex;
+}
+span{
+    color: brown;
+    font-size: 30px;
+}
+.message{
+    color: red;
+    font-size: 49px;
+}
+.highScore,.counts{
+    margin-top: 3px;
+    color: brown;
+}
+body{
+    background-repeat: no-repeat;
+    height: 99%;
+    /* width: 100%; */
+    padding: 0px;
+    box-sizing: border-box;
+    background-size: cover;
+    background-image: repeating-linear-gradient(45deg,rgb(158, 239, 158),rgb(245, 245, 148) 2%);
+
+}
+.goBack{
+    margin-left: 40%;
+    text-align: center;
+}
+.space{
+    
+}
